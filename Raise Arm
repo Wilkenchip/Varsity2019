@@ -21,7 +21,7 @@ int main()
     while(get_servo_position(0) < finish)
     {
     	set_servo_position(0,y);
-        msleep(10);
+        msleep(20);
         y = y + 2;
     }
     disable_servos();
